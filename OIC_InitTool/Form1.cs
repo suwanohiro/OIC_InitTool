@@ -6,5 +6,15 @@ namespace OIC_InitTool
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ApplicationExit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
